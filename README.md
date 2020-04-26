@@ -1,9 +1,9 @@
 # athena-discover-live-assets
 Project contains scripts to discover Live Hosts/Assets
 
-# Scripts
+## Scripts
 
-## `discover_resolvable_hosts.sh`
+### `discover_resolvable_hosts.sh`
 
 ```
 # Script takes a list of hosts (IPs/domains) as input and then determines using the 'host' command  
