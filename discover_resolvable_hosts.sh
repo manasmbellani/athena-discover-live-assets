@@ -8,13 +8,13 @@
 # 
 # Examples
 #     To resolve a list of hosts from a file hosts.txt:
-#         cat hosts.txt | ./discover_resolvable_hosts.txt
+#         cat hosts.txt | ./discover_resolvable_hosts.sh
 # 
 #     To check if www.google.com, www.msn.com are resolvable:
-#         echo -e "www.google.com\nwww.msn.com\n" | ./discover_resolvable_hosts.txt
+#         echo -e "www.google.com\nwww.msn.com\n" | ./discover_resolvable_hosts.sh
 #  
 #     To perform resolution on domains in a file, hosts.txt, in-parallel:
-#         cat hosts.txt | parallel --will-cite --pipe -n1 ./discover_resolvable_hosts.txt
+#         cat hosts.txt | parallel --will-cite --pipe -n1 ./discover_resolvable_hosts.sh
 #
 
 # Constants
